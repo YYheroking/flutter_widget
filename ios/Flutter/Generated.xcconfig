@@ -1,7 +1,7 @@
 // This is a generated file; do not edit or check into version control.
 FLUTTER_ROOT=/Users/axun/flutter
-FLUTTER_APPLICATION_PATH=/Users/axun/my_first_demo
-FLUTTER_TARGET=/Users/axun/my_first_demo/lib/main.dart
+FLUTTER_APPLICATION_PATH=/Users/axun/flutter_widget
+FLUTTER_TARGET=/Users/axun/flutter_widget/lib/main.dart
 FLUTTER_BUILD_DIR=build
 SYMROOT=${SOURCE_ROOT}/../build/ios
 FLUTTER_FRAMEWORK_DIR=/Users/axun/flutter/bin/cache/artifacts/engine/ios
