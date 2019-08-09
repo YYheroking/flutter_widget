@@ -1,4 +1,4 @@
-package com.example.my_first_demo;
+package com.example.flutter_widge;
 
 import android.os.Bundle;
 import io.flutter.app.FlutterActivity;

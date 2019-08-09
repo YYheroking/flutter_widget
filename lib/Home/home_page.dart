@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import './drawer_widget.dart';
-import './bottom_bar.dart'
-;
+import './bottom_bar.dart';
+import 'home_second_page.dart';
+
 class HomePage extends StatelessWidget {
 
   @override
@@ -14,11 +15,6 @@ class HomePage extends StatelessWidget {
         appBar: AppBar(
           title: Text('yaoyun'),
           elevation: 0.0,
-          // leading: IconButton(
-          //   icon: Icon(Icons.menu),
-          //   tooltip: '抽屉效果',
-          //   onPressed: () => print('object'),
-          // ),
           actions: <Widget>[
             IconButton(
               icon: Icon(Icons.search),
@@ -45,7 +41,8 @@ class HomePage extends StatelessWidget {
         ),
         body: TabBarView(
           children: <Widget>[
-            Icon(Icons.local_florist,size: 128.0,color: Colors.black12),
+            // Icon(Icons.local_florist,size: 128.0,color: Colors.black12),
+            HomeSecondPageDemo(),
             Icon(Icons.change_history,size: 128.0,color: Colors.black12),
             Icon(Icons.directions_bike,size: 128.0,color: Colors.black12),
 
