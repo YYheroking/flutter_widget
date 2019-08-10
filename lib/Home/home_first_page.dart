@@ -23,8 +23,7 @@ class HomeFirstPage extends StatelessWidget{
                 '我是AspectRatio的demo',
                 textAlign: TextAlign.center,
                 style: TextStyle(
-                  color: Colors.black,
-                  
+                  color: Colors.black, 
                 ),
                 ),
             ),
