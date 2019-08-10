@@ -25,11 +25,17 @@ class HomeSecondPageDemo extends StatelessWidget {
             ]),
           ),
         ),
-        SizedBox(child: Text('.............'),height: 15.0,width: 200,),
+        SizedBox(height: 15.0),
         Container(
+          width: 300,
+          height: 300,
           //装饰器
           decoration: BoxDecoration(
-            color: Colors.orange[300],
+            image: DecorationImage(
+              image: NetworkImage('https://tse4-mm.cn.bing.net/th?id=OIP.HuohubnJbjWNSx_kwCpJWgAAAA&w=202&h=202&c=7&o=5&dpr=2&pid=1.7'),
+              alignment: Alignment.topCenter,
+            ),
+            // color: Colors.orange[300],
             border: Border.all(
               color: Colors.red,
               width: 2.0,
