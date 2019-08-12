@@ -11,10 +11,7 @@ class FormBoxDemo extends StatefulWidget {
 }
 
 class _FormBoxDemoState extends State<FormBoxDemo> {
-
-  String _Optionresult = 'Nothing';
   
-
    _openSimpleDiaLogFunc (){
     showDialog(
       context: context,
