@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
-import 'Home/home_page.dart';
+// import 'Home/home_page.dart';
+import './Components/form_box.dart';
 
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
-  // This widget is the root of your application.
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -15,8 +16,12 @@ class MyApp extends StatelessWidget {
         highlightColor: Color.fromRGBO(255, 255, 255, 0.5),
         // splashColor: Colors.white70,
       ),
-      home: HomePage(),
+      // initialRoute: '/FormBox',
+      // routes: {
+      //   // '/': (context) => HomePage(),
+      //   '/FormBox': (context) => FormBoxDemo(),
+      // },
+      home: FormBoxDemo(),
     );
   }
 }
-
